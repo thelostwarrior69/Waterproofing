@@ -1,0 +1,41 @@
+.AboutCeoContainer{
+     width: 100%;
+     padding: 6% 4%;
+     background-color: rgb(255,255,255);
+    background-image: url("../../../public/images/wd.png");
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.AboutCeoContainer  h1{
+   text-align: center;
+   font-size: 70px;
+   font-weight: 800;
+   padding-bottom: 3%;
+}
+
+.imageContainer{
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+   margin-top: 2rem;
+}
+.imageContainer > img{
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   width:26%;
+   height: 26%;
+}
+
+.textContainer{
+   width: 60%;
+}
+
+
+@media screen and (max-width: 450px) {
+   .AboutCeoContainer h1{
+      font-size: 40px;
+   }
+}

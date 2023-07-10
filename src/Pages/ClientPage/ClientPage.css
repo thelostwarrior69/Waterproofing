@@ -1,0 +1,88 @@
+.ClientBody{
+    width: 100%;
+    padding: 6% 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ClientTable{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #f2f2f2,url("../../../public/images/wd.png");
+    margin-bottom: 50px;
+}
+
+.ClientBody> h1{
+    
+    font-weight: 900;
+    font-size: 70px;
+    padding-bottom: 3%;
+    
+}
+.listLogo{
+    height: 120px;
+     width:50%;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.ClientName{
+    width:50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ListHeading{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 2px;
+}
+.listElement{
+    display: flex;   
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-bottom: 2px;
+}
+.listName{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large
+}
+.logoImg{
+    width: 150px;
+    height: 100px;
+}
+
+@media screen and (max-width:600px) {
+    .Clientheading > h1{
+        font-size: 50px;
+    }
+    .listLogo > h2 {
+        font-size: 30px;
+    }
+    .ClientName > h2{
+        font-size: 30px;
+    }
+    .listName{
+        font-size: 16px;
+    }
+    .logoImg{
+        width: 100px;
+        height: 70px;
+    }
+}

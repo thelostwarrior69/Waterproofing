@@ -1,0 +1,98 @@
+.Footer{
+    background-image: linear-gradient(rgb(12, 28, 36),rgba(12, 28, 36,0.9)), url('../../../public/images/waterproofingBackground.jpg') ;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: whitesmoke;
+    gap: 2rem ; 
+    /* position: fixed; */
+}
+.footerHeading{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.fst, .snd{
+    display:flex;
+    gap: 3rem;
+    width: 50vw;
+}
+
+.logo{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.logo > img{
+    width: 8rem;
+    height: 3rem;
+}
+
+.links{
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    font-size: x-large;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footerLi > li:not(:first-of-type) {
+    margin-top: 1.2em;
+}
+
+.footerLi >li:not(:last-of-type) {
+    margin-bottom: 1.2em;
+}
+
+.fst > div{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: left;
+}
+
+@media only screen and (max-width: 1110px) {
+     .fst,.snd{
+        width: 100%;
+        display: block;
+        padding: 5px 5px;
+     }
+}
+@media only screen and (max-width: 550px) {
+     .Footer{
+        display: block;
+        padding: 5px 50px;
+     }
+     .fst > div{
+        width: 100%;
+        margin: 25px 0px;
+     }
+     .links{
+        justify-content: space-around;
+     }
+     .contact{
+        margin: 3rem 0;
+     }
+}
+
+@media screen and (max-width:450px) {
+    .footerHeading{
+        font-size: 1.5rem;
+    }
+    .logo{
+        flex-direction: column;
+        text-align: center;
+    }
+    .logo > img{
+        width: 10rem;
+        height: 4rem;
+    }
+}

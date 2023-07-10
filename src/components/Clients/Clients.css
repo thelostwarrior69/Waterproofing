@@ -1,0 +1,40 @@
+.Clients{
+    background-image: linear-gradient(rgb(13, 110, 146,0.9),rgb(13, 110, 146,0.9)), url('../../../public/images/waterproofingBackground.jpg');
+    height: 75vh;
+    color: snow;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 6% 3%;
+}
+.Clients .swiper-button-prev{
+    
+     color: white!important;
+     
+}
+.Clients .swiper-button-next{
+
+    color: white!important;
+    
+}
+
+.Clients > .mySwiper{
+    /* background-color: red; */
+    overflow:visible!important;
+}
+.Clients > h1{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-weight: 800;
+    font-size: 60px;
+
+}
+    
+@media screen and (max-width: 1050px) {
+    .Clients > h1{
+        font-size: 50px;
+    }
+}

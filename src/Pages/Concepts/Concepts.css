@@ -1,0 +1,130 @@
+.Concepts{
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);   
+    background-attachment: fixed;
+}
+
+.ConceptWaterProofing{
+    display: flex;
+    width: 100%;
+    padding: 2% 10%;   
+}
+.ConceptWaterProofingInfo{
+    width: 100%;
+    text-align: center;
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ConceptWaterProofingInfo> h1{
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 3%;
+}
+
+.ConceptWaterProofingImage{
+    width: 40%;
+}
+.ConceptWaterProofingImage > img{
+    width: 90%;
+    height: 80%;
+    object-fit: cover;
+    padding: 5%;
+}
+.Recommendations{
+    background:rgba(96, 193, 228, 0.5);
+    width: 100%;
+    padding: 2% 8%;
+    font-weight: 700;
+    font-size: 1.2rem
+}
+.Recommendations a{
+    text-decoration: none;
+    color: white;
+}
+.RecommendationCard{
+    border: 2px solid rgb(15, 53, 66);
+    padding: 5%;
+    margin: 5%;
+    width: 80%;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.RecommendationCards{
+    display:grid;
+     grid-template-columns: 1fr 1fr;
+     grid-gap: 2rem;
+}
+
+.RecommendationCard:hover{
+    background : white;
+    color: rgb(13, 110, 146);
+    font-weight: 900;
+    scale: 1.1;
+}
+
+.ConceptCard{
+    padding: 2% 10%;
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+.ConceptCard > h2{
+    font-size: 70px;
+    font-weight: 700;
+    padding: 2% 0%;
+}
+
+table td{
+    border: 1px solid #d6c9c9;
+    padding: 20px;
+    text-align: center;
+}
+table{
+    width: 100%;
+    margin: 2rem auto;
+}
+
+@media only screen and (max-width: 540px) {
+    .ConceptWaterProofing{
+        flex-direction: column;
+    }
+    .ConceptWaterProofingInfo{
+        width: 100%;
+    }
+    .ConceptWaterProofingImage{
+        width: 100%;
+    }
+    .Recommendations > h2 {
+        font-size: 1.6rem;
+    }
+    .ConceptWaterProofingInfo> h1{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .RecommendationCards{
+        grid-template-columns: 1fr;
+    }
+    .ConceptCard > h2{
+        font-size: 35px;
+        font-weight: 700;
+        padding: 2% 0%;
+    } 
+    table td{
+        border: 1px solid #d6c9c9;
+        padding: 10px;
+        font-size: 16px;
+    }
+    li , p {
+        font-size: 16px !important;
+    }
+}

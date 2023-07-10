@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+.AboutUs{ 
+    width : 100vw;
+}
+
+.Aboutcoverpage{
+    height: 80vh;
+    width: 100vw;
+    filter: brightness(80%);
+    object-fit: cover;
+}
+
+.headingContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    position: absolute;
+    padding: 0 60px;
+    top: 30%;
+}
+
+.Abouth1{
+    font-weight: 700;
+    font-size: xxx-large;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+}
+
+.Aboutlead{
+    display: inline;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1119px){
+    .AboutUs{
+        /* height: 50vh; */
+    }
+    .headingContainer{
+        width: 80vw;
+    }
+    .Abouth1{
+        font-size: xx-large;
+    }
+    .Aboutlead{
+        font-size: large;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    .headingContainer {
+        top: 15%;
+    width: 100vw;
+    }
+    .Abouth1{
+       display: none;
+    }
+    .Aboutlead{
+        display: block!important;
+        font-size: xxx-large;
+        font-weight: 600!important;
+    }
+   
+}

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+
+.AboutUs{
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-color: rgb(255, 255, 255);
+    height: fit-content;
+    background-attachment: fixed;
+}
+
+.about-us-midSection{
+    width: 100%;
+    gap: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+}
+
+.about-us-box > p , .about-us-box > ol{
+   width: 100%;
+   color: rgb(70, 78, 81);
+   padding: 0 15%;
+   text-align: left;
+}
+
+.about-us-box{
+    /* display: flex;
+    width: 100vw;
+    flex-direction: column; */
+}
+
+.mid-sec-img-container{
+    width: 100%;
+    margin: 2rem 0;
+}
+.mid-sec-img{
+    padding: 0 15%;
+    width: 100%;
+    height: 40%!important;
+    object-fit: contain;
+}
+.mid-sec-content-container{
+    /* width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2%;
+    padding: 0 3%; */
+
+}
+
+.mid-sec-content-container p{
+    /* color: rgb(70, 78, 81);
+    font-size: large; */
+}
+.mid-sec-content-container h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.mid-sec-content-container button{
+    /* width: 50%;
+    padding: 1% 0;
+    border: 2px solid transparent;
+    background-color: rgb(37, 150, 190);
+    color: white; */
+}
+.mid-sec-content-container button:hover{
+/*    
+    border: 2px solid rgb(37, 150, 190);
+    background-color: transparent;
+    color: black; */
+}
+
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+
+    /* .about-us-midSection > h2{
+        width: 80vw;
+     }
+     .about-us-midSection > p{
+        width: 60vw;
+        
+     }
+
+    .mid-sec-content-container p{
+        font-size: small;
+    } */
+
+
+}
+@media only screen and (max-width: 800px) {
+/* 
+    .about-us-midSection > h2{
+        width: 90vw;
+     }
+     .about-us-midSection > p{
+        width: 80vw;
+        
+     }
+     .mid-sec-content-container h2{
+        font-size: large;
+    } */
+
+}
+@media only screen and (max-width: 550px) {
+
+    /* .about-us-midSection{
+        height: 130vh;
+        
+    }
+    .about-us-box{
+        flex-direction: column;
+        gap: 5%;
+    }
+    .mid-sec-img-container{
+        width: 100%;
+    }
+    .mid-sec-content-container{
+        width: 100%;
+    }
+    
+    .mid-sec-content-container h2{
+        font-size: x-large;
+    }
+    .mid-sec-content-container p{
+        font-size: larger;
+    } */
+}
+
+@media only screen and (max-width: 484px) {
+    /* .about-us-midSection{
+            height: 150vh;
+    } */
+    }
+    @media only screen and (max-width: 433px) {
+    /* .about-us-midSection{
+        margin-bottom: 6rem;
+    } */
+}

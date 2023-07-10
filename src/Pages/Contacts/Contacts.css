@@ -1,0 +1,115 @@
+.contactpage{
+    height: 50vh;
+    width: 100vw;
+    color: snow;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.page{
+    height: 50vh;
+    width: 100vw;
+    filter: brightness(40%);
+    object-fit: cover;
+}
+.myContactcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "coolvetica";
+}
+.Contacth1
+{
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+}
+.ContactHeading{
+    font-weight: 900;
+    font-size: xx-large;
+    text-align: center;
+    margin: 4% 0;
+}
+.contactForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    margin-bottom: 4%;
+}
+.left, .right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background-color: #f5f5f5;
+}
+.right{
+    flex-direction: row;
+}
+
+.contactInput{
+    width: 100%;
+    height: 2rem;
+    margin: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 1rem;
+    font-family: "coolvetica";
+}
+.contactTextarea{
+    width: 100%;
+    height: 10rem;
+    margin: 1rem 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 1rem;
+    font-family: "coolvetica";
+}
+.contactBtn{
+    width: 100%;
+    height: 2rem;
+    margin: 1rem 0;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-family: "coolvetica";
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width:786px) {
+    .left > h3{
+        font-size: 35px;
+    }
+    .left > p{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width : 450px) {
+    .contactForm{
+        flex-direction: column;
+        height: fit-content;
+        width: 100%;
+    }
+    .left{
+        width: 90%;
+    }
+    .right {
+        width: 90%;
+    }
+    .Contacth1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,39 @@
+.gallery-container{
+    padding: 6% 5% 5% 5%;
+    /* background: url('../../../public/images/Droplets_bg/water_droplet_bg.png'); */
+    
+    background-color: rgb(255,255,255);
+    background-image: url("../../../public/images/wd.png");
+    object-fit: contain;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.gallery-container h2{
+    font-weight: 900;
+    font-size: 70px;
+    padding-bottom: 3%;
+}
+
+.gallery-btns-container{
+    padding: 1% 1%;
+}
+
+.gallery-btn{
+    background-color: #25befb;
+    border: none;
+    padding: 0.5% 1.5%;
+    margin-right: 1%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.gallery-btn:hover{
+    background-color: #1b7aa0;;
+}
+
+.gallery-display{
+    display: flex;
+    justify-content: center;
+}

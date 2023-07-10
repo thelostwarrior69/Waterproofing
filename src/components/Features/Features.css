@@ -1,0 +1,287 @@
+.features-container{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    gap: 5%;
+    padding: 5% 10% ; 
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.features-left{
+    /* width: 58vw; */
+    width: 58%;
+}
+.features-right{
+    width: 42%;
+    position: relative;
+}
+
+.f-left-img-container{
+    height: 85%;
+    width: 70%;
+    position: absolute;
+    left: 0;
+}
+
+.f-right-img-container{
+    position: absolute;
+    height: 65%;
+    width: 60%;
+    right: 0;
+    bottom: 4%;
+    border-left: 15px solid #ebe9eb;
+    border-top: 15px solid #ebe9eb;
+}
+
+.f-img-left{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.f-img-right{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.f-card{
+    position: absolute;
+    /* height: 28vh; */
+    width: 35%;
+    background-color: rgb(13, 110, 146);
+    bottom: 0;
+    left: 25%;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    padding: 5%;
+}
+
+.f-card i{  
+    font-size: 60px;
+    margin-bottom: 2px;
+}
+
+/* left side */
+
+.features-left b{
+    font-size: xx-large;
+}
+
+.features-left h1{
+    /* margin-bottom: 2.5%; */
+    color: white;
+    font-weight: 900;
+    background-color:rgb(13, 110, 146);
+    text-align: center;
+    border-radius: 8px;
+    margin: 2% 0;
+    padding: 2%;
+}
+
+.features-left p{
+    font-size: x-large;
+}
+
+
+.features-left-box{
+   
+    /* padding: 2%; */
+    padding: 2% 0;
+    height: 50%;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 4%;
+    row-gap: 5%;
+ 
+}
+
+.features-left-content{
+    width: 100%;
+    position: relative;
+    grid-column: 1/5;
+    grid-row: 2/3;
+    opacity: 0;
+    
+    transition: opacity 0.4s ease-in-out;
+    padding: 2% 0;
+}
+
+.f-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    border-bottom: 6px solid rgb(37, 150, 190);
+    cursor: pointer;
+    padding: 8px;
+    transition:color 0.3s ease-in-out;
+    transition:background 0.3s ease-in-out;
+}
+
+.key-select{
+    background-color: rgb(37, 150, 190);
+    color: white;
+}
+
+.f-btn:hover{
+    color: white;
+    background-color: rgb(37, 150, 190);
+}
+    
+.current{
+    opacity: 1;
+}
+
+.f-tick{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    font-weight: 600;
+    font-size: large;
+}
+
+.f-tick i{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(37, 150, 190);
+}
+.tick-first{
+    grid-row: 3/4;
+    grid-column: 1/3;
+    
+}
+.tick-second{
+    grid-row: 3/4;
+    grid-column: 3/5;
+
+}
+.tick-third{
+    grid-row: 4/5;
+    grid-column: 1/3;
+
+}
+.tick-fourth{
+    grid-row: 4/5;
+    grid-column: 3/5;
+
+}
+
+
+/* mobiles */
+
+@media only screen and (max-width: 1310px) {
+
+    .features-container{
+        padding: 5% 5%;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    
+    .features-container{
+        display: block;
+        /* height: 100vh; */
+    }
+
+    .features-left{
+        width: 100%;
+        height:100%;
+    }
+
+    .features-left-content{
+        width: 100%;
+    }
+
+    .features-right{
+        display: none;
+    }
+
+    .f-left-img-container{
+        left: auto;
+        right:5%;
+        margin-top: 5%;
+    }
+
+    .f-right-img-container{
+        left: auto;
+        right: 25%!important;
+        right: auto;
+    }
+
+    .f-card{
+        left: 15%;
+        bottom: 5%;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .features-container{
+        padding: 10% 5%;
+    }
+
+    .features-left-box{
+        /* display: block; */
+        grid-template-rows: 1fr  1fr 2fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    #oneone{
+        grid-row: 1/2;
+        grid-column: 1/3;
+    }
+    #onetwo{
+        grid-row: 1/2;
+        grid-column: 3/5;
+    }
+    #twoone{
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    #twotwo{
+        grid-row: 2/3;
+        grid-column: 3/5;
+    }
+
+    .features-left-content{
+        grid-row: 3/4;
+
+    }
+
+    .tick-first{
+        grid-row: 4/5;
+        grid-column: 1/3;
+        
+    }
+    .tick-second{
+        grid-row: 4/5;
+        grid-column: 3/5;
+    
+    }
+    .tick-third{
+        grid-row: 5/6;
+        grid-column: 1/3;
+    
+    }
+    .tick-fourth{
+        grid-row: 5/6;
+        grid-column: 3/5;
+    
+    }
+    
+    .f-tick{
+        font-size: small;
+    }
+    .features-left > h1{
+        font-size: 2rem;
+    }
+}

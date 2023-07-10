@@ -1,0 +1,59 @@
+.AboutAim{
+    height: 70vh;
+    width: 100vw;
+    /* background: url("../../images/coverpage.jpg"); */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 30px;
+}
+
+.AboutContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(48, 42, 42,.8);
+    height: 80%;
+    width: 40vw;
+    position: absolute;
+    bottom: 15%;
+    left:7%;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+.AboutContainer > h1{
+    font-size: xx-large;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.about-btn{
+    background-color: transparent;
+    color: white;
+    padding:1.5% 0;
+    border: 1px solid white;
+    margin-top: 2%;
+}
+
+.about-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 1119px){
+    .AboutContainer > h1{
+        font-size: x-large;
+    }
+}
+@media screen and (max-width: 650px){
+    .AboutContainer > p{
+        display: none;
+    }
+    .AboutContainer{
+        display: flex;
+        height: 50%;
+    }
+}
+
+

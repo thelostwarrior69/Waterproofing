@@ -1,0 +1,87 @@
+.homepage{
+    /* height: 100vh; */
+    width: 100vw;
+    color: snow;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.home-carrousel-cont{
+    height: 86.5vh;
+
+}
+
+.home-carrousel-img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    filter: brightness(60%);
+}
+
+.coverpage{
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(60%);
+    object-fit: cover;
+}
+
+.mycontainer{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    position: absolute;
+    /* padding: 0 60px; */
+    left: 10%;
+    top: 40%;
+    font-family: "coolvetica";
+}
+.swiper-button-next{
+    right: 2%!important;
+}
+.h1{
+    font-weight: 900;
+    font-size: xxx-large;
+    text-align: left;
+}
+.lead{
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    color: whitesmoke;
+    justify-content: left;
+    gap: 1rem;
+}   
+.home-btn{
+    background-color: rgb(	4, 54, 105,0.9);
+    border: none;
+    color: white;
+}
+.home-btn:hover{
+    background-color: rgba(50, 118, 186, 0.9);
+}
+
+@media only screen and (max-width: 890px) {
+    .mycontainer{
+        top: 30%;
+    }
+    .btns{
+        flex-direction: column;
+    }
+    .h1{
+        font-weight: 900;
+        font-size: xx-large;
+        text-align: left;
+    }
+}
+@media only screen and (max-width: 596px) {
+        .btns{
+            display: none;
+
+        }
+        .mycontainer{
+        top: 30%;
+    }
+}

@@ -1,0 +1,47 @@
+.single-image-modal{
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0, 0, 0, 0.841);
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+    color: white;
+}
+
+.single-image-modal-container{
+    width:"100%" ;
+    
+    z-index:"5";
+    position: relative;
+}
+.single-image-modal-img-container{
+    height: 90vh;
+    /* width: 40vw; */
+}
+
+.single-modal-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.single-image-modal-desc{
+    font-size: larger;
+    text-align:center;
+}
+
+.modal-close{
+    font-size: xx-large;
+    color: white;
+    margin-left: 100%;
+    cursor: pointer;
+
+    transform: translateX(-100%);
+    right: 0;
+    top: 0;
+}

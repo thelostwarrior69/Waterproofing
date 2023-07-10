@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3{
+    font-family: 'PT Sans Caption', sans-serif!important;
+    font-size: xxx-large;
+}
+
+p , span , td{
+    font-family: 'Open Sans', sans-serif;
+    font-size: x-large;
+}

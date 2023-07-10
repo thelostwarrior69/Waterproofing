@@ -1,0 +1,35 @@
+.ServicesCarrousel{
+    padding: 5%;
+    padding-top: 0;
+    background-image: url("../../../public/images/wd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+
+.ServicesCarrousel > div{
+    color: rgb(13, 110, 146);
+    text-align: center;
+    padding: 5% 0;
+    font-size: 50px;
+    font-weight: 700;
+}
+.ServicesCarrousel > p{
+    padding: 0 5%;
+    text-align: center;
+}
+
+.service-carrousel-swiper > .swiper-button-prev{
+    left: 0;
+}
+.service-carrousel-swiper > .swiper-button-next{
+    right: 0!important;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+   
+}
