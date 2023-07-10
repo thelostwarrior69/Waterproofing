@@ -9,6 +9,9 @@ import BackButton from '../../components/BottomButtons/BackButton'
 
 
 const  ServicesPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        }, []); 
   return (
     <div>
         <Navbar1/>
@@ -17,7 +20,7 @@ const  ServicesPage = () => {
             <div className='row'>
                 <Link className='services-item col-md-4 col-sm-6' to ='/services/waterproofing'>
                     <div className='services-item-logo'>
-                        <i class="fa-solid fa-umbrella"></i>
+                        <i className="fa-solid fa-umbrella"></i>
                     </div>
                     <div className='services-item-heading'>
                         Water Proofing
@@ -25,7 +28,7 @@ const  ServicesPage = () => {
                 </Link >
                 <Link className='services-item col-md-4 col-sm-6' to ='/services/epoxyFlooring'>
                     <div className='services-item-logo'>
-                        <i class="fa-solid fa-paint-roller"></i>
+                        <i className="fa-solid fa-paint-roller"></i>
                     </div>
                     <div className='services-item-heading'>
                         Epoxy Flooring System / Protective Paints
@@ -33,7 +36,7 @@ const  ServicesPage = () => {
                 </Link >
                 <Link className='services-item col-md-4 col-sm-6' to ='/services/repair'>
                     <div className='services-item-logo'>
-                        <i class="fa-solid fa-wrench"></i>
+                        <i className="fa-solid fa-wrench"></i>
                     </div>
                       <div className='services-item-heading'>
                         Repair and Rehabilition
@@ -41,7 +44,7 @@ const  ServicesPage = () => {
                 </Link >
                 <Link className='services-item col-md-6 last-two' to ='/services/insulation'>
                     <div className='services-item-logo'>
-                        <i class="fa-brands fa-connectdevelop"></i>
+                        <i className="fa-brands fa-connectdevelop"></i>
                     </div>
                     <div className='services-item-heading'>
                         Insulation
@@ -49,7 +52,7 @@ const  ServicesPage = () => {
                 </Link >
                 <Link className='services-item col-md-6 col-sm-12 last-two last-one' to ='/services/projectConsultancy'>
                     <div className='services-item-logo'>
-                    <i class="fa-solid fa-user-tie"></i>
+                    <i className="fa-solid fa-user-tie"></i>
                     </div>
                     <div className='services-item-heading'>
                         Project Consultation

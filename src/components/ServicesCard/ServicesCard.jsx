@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import './ServicesCard.css'
 
 const ServicesCard = (props) => {
@@ -7,12 +7,12 @@ const ServicesCard = (props) => {
     <div className='services-card'>
 
       <div className='services-card-img-container'>
-        <a href={props.path}>
+        <Link to={props.path}>
         <img src={props.img} alt="" className='services-card-img' />
         <div className='overlay-services-card'>
           <div className='services-card-content'>{props.content}</div>
         </div>
-        </a>
+        </Link>
       </div>
 
       <div className='services-card-heading'>

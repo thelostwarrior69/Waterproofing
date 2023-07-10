@@ -1,7 +1,5 @@
 import React from 'react'
 import {data} from '../../common/ServiceCardData'
-import { setting } from '../../common/setting'
-import Slider from 'react-slick'
 import ServicesCard from '../ServicesCard/ServicesCard'
 
 // Import Swiper React components

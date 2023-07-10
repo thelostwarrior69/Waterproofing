@@ -5,6 +5,9 @@ import UpButton from '../../components/BottomButtons/UpButton'
 import BackButton from '../../components/BottomButtons/BackButton'
 
 export default function WaterProofing() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        }, []); 
   return (
       <>
           <Navbar1 />
