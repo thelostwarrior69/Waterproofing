@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Footer from '../../components/Footer/Footer'
 import UpButton from '../../components/BottomButtons/UpButton'
 import BackButton from '../../components/BottomButtons/BackButton'
 import Navbar1 from '../../components/Navbar/Navbar1'
 
 export default function SelectProducts() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    }, []); 
     return (
         <>
         <Navbar1/>

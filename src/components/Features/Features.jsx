@@ -1,13 +1,9 @@
 import React from 'react'
-import { useState } from 'react'
 import './Features.css'
-
-import {data} from './featuresContent' 
 
 
 const Features = () => {
 
-    const [key,setKey] = useState(1);
 
   return (
     <div className='features-container'>
@@ -21,22 +17,22 @@ const Features = () => {
 
             <div className='features-left-box'>
                 <div className='f-tick tick-first'>
-                    <i class="fa-regular fa-circle-check"></i>
+                    <i className="fa-regular fa-circle-check"></i>
                   <span>  Experienced Workers </span>
                 </div>
 
                 <div className='f-tick tick-second'>
-                    <i class="fa-regular fa-circle-check"></i>
+                    <i className="fa-regular fa-circle-check"></i>
                  <span> High Quality Product</span>
                 </div>
 
                 <div className='f-tick tick-third'>
-                    <i class="fa-regular fa-circle-check"></i>
+                    <i className="fa-regular fa-circle-check"></i>
                    <span> Latest Technology</span>
                 </div>
 
                 <div className='f-tick tick-fourth'>
-                    <i class="fa-regular fa-circle-check"></i>
+                    <i className="fa-regular fa-circle-check"></i>
                     <span> Client Satisfaction</span>
                 </div>
                 
@@ -52,7 +48,7 @@ const Features = () => {
                 <img src="./images/worker_working2.jpg" alt="" className='f-img-right' />
             </div>
             <div className='f-card'>
-                <i class="fa-solid fa-helmet-safety"></i>
+                <i className="fa-solid fa-helmet-safety"></i>
 
                 <h3><b>10 +</b></h3>
                 <p>years of Experience</p>
