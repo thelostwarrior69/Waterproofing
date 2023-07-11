@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Footer from '../../components/Footer/Footer'
 import Navbar1 from '../../components/Navbar/Navbar1'
 import { Link } from 'react-router-dom'
@@ -7,6 +7,9 @@ import UpButton from '../../components/BottomButtons/UpButton'
 import BackButton from '../../components/BottomButtons/BackButton'
 
 export default function ProductsPage() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+        }, []); 
   return (
     <div className='ProductPage'>
       <Navbar1 />
