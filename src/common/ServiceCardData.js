@@ -15,7 +15,7 @@ export const data = [
     },
     {
         id: 3,
-        img: '../images/RepairHomepage.jpg',
+        img: '../images/repair.jpg',
         heading: 'Repair and Rehabilitation',
         content: "Repair and Rehabilitation is necessary to save hazardous failure of structures due to deterioration.",
         href: '/services/repair'

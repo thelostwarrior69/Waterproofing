@@ -129,4 +129,24 @@ export const clientsData = [
         name: 'India International Centre',
         logo: '../images/clients/India International Centre.jpg',
     },
+    {
+        id: 27,
+        name: "Weber",
+        logo : "../images/clients/weber.png"
+    },
+    {
+        id: 28,
+        name: "Saint-Gobain",
+        logo : "../images/clients/saintGobin.jpg"
+    },
+    {
+        id: 29,
+        name: "Fosroc",
+        logo : "../images/clients/fosroc.jpg"
+    },
+    {
+        id: 30,
+        name: "Pidilite",
+        logo : "../images/clients/pidilite.jpg"
+    }
 ]
