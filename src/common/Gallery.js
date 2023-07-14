@@ -17,11 +17,11 @@ export const data = [
         { img: './images/Gallery/airport/15.jpg' },
         { img: './images/Gallery/airport/16.jpg' },
         { img: './images/Gallery/airport/17.jpg' },
-        { img: './images/Gallery/airport/18.jpg' },
-        { img: './images/Gallery/airport/19.jpg' },
-        { img: './images/Gallery/airport/20.jpg' },
-        { img: './images/Gallery/airport/21.jpg' },
-        { img: './images/Gallery/airport/22.jpg' },
+        { img: './images/Gallery/airport/18.JPG' },
+        { img: './images/Gallery/airport/19.JPG' },
+        { img: './images/Gallery/airport/20.JPG' },
+        { img: './images/Gallery/airport/21.JPG' },
+        { img: './images/Gallery/airport/22.JPG' },
        
     ],
       [
