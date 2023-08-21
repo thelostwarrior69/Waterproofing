@@ -23,7 +23,7 @@ export default function Footer() {
                 <div className="logo">
                     <a href="https://oakshade-ai.com/"><img src="./images/oakshade.png" alt="Powered by OakShade" className='oakshade'/></a>
                 </div>
-                    We have competent workforce and supervisory staff backed up by highly experienced consultants,technical associates.Name
+                    We have competent workforce and supervisory staff backed up by highly experienced consultants,technical associates.
                 <div className="handles">
                     <div className="links">
                         <i className="fa-brands fa-twitter fa-2x"></i>
