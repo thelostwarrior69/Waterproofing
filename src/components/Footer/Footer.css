@@ -58,6 +58,12 @@ a{
     gap: 2.5rem;
     justify-content: left;
 }
+.oakshade{
+
+    height: 80px;
+    width: 500px;
+    object-fit: cover;
+}
 
 @media only screen and (max-width: 1110px) {
      .fst,.snd{
@@ -67,6 +73,11 @@ a{
      }
 }
 @media only screen and (max-width: 550px) {
+    .oakshade{
+        height: 60px;
+        width: 300px;
+        object-fit: cover;
+    }
      .Footer{
         display: block;
         padding: 5px 50px;

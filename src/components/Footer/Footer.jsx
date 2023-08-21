@@ -20,6 +20,9 @@ export default function Footer() {
                     <img src="/images/logo.jpg" alt="" />
                     <h3 className='footerHeading' >Complete Waterproofing</h3> 
                 </div>
+                <div className="logo">
+                    <a href="https://oakshade-ai.com/"><img src="./images/oakshade.png" alt="Powered by OakShade" className='oakshade'/></a>
+                </div>
                     We have competent workforce and supervisory staff backed up by highly experienced consultants,technical associates.Name
                 <div className="handles">
                     <div className="links">
